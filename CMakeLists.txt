@@ -5,7 +5,7 @@ project(TicTacToe)
 #ustalamy nazwe projektu
 
 #sprawdzamy czy jest zainstalowana biblioteka SDL2 i ja dodajemy
-find_package(SDL2 REQUIRED)
+#find_package(SDL2 REQUIRED)
 include_directories(${SDL2_INCLUDE_DIRS})
 
 #sprawdzamy czy jest zainstalowana biblioteka SDL2_GFX i ja dodajemy
